@@ -8,11 +8,11 @@ export const adConfig1: AdConfig = {
 		src: "assets/images/cover.avif",
 		alt: "广告横幅",
 		link: "#",
-		external: true,
+		external: false,
 	},
 
 	// 是否允许关闭广告
-	closable: true,
+	closable: false,
 
 	// 显示次数限制，-1为无限制
 	displayCount: -1,
@@ -41,23 +41,5 @@ export const adConfig1: AdConfig = {
 
 // 广告配置2 - 完整内容广告
 export const adConfig2: AdConfig = {
-	title: "支持博主",
-	content:
-		"如果您觉得本站内容对您有帮助，欢迎支持我们的创作！您的支持是我们持续更新的动力。",
-	image: {
-		src: "assets/images/cover.avif",
-		alt: "支持博主",
-		link: "about/",
-		external: false,
-	},
-	link: {
-		text: "支持一下",
-		url: "about/",
-		external: false,
-	},
-	closable: true,
-	displayCount: -1,
-	padding: {
-		// all: "1rem",
-	},
+	
 };
