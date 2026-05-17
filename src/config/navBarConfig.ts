@@ -68,7 +68,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "GitHub",
 				url: "",
 				external: true,
-				icon: "https://github.com/fengchuixingdian?tab=repositories",
+				icon: "simple-icons:https",
 			},
 		],
 	});
