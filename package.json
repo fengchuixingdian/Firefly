@@ -1,4 +1,4 @@
-{
+{"@iconify-json/simple-icons": "^1.2.1",
   "name": "firefly",
   "type": "module",
   "version": "6.10.3",
